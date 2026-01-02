@@ -1,0 +1,34 @@
+.container {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	place-items: center;
+	padding: 5px 15px;
+	gap: 1rem;
+}
+
+.service_list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.footer_container {
+	background: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	min-width: 100vw;
+	place-content: center;
+	padding: 10px;
+	justify-content: space-between;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
